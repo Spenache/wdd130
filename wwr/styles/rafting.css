@@ -3,7 +3,7 @@
     --secondary-color:#f4a261;
     --accent1-color:#264653;
     --accent2-color:#e9c46a;
-    --heading-font:"Times New Roman", |"Georgia", serif;
+    --heading-font:"Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -45,7 +45,7 @@ nav, p, section, article {
 .hero {
     background-image: url(../images/rafting58.jpg);
     background-size: cover;
-    background-repeat: none;
+    background-repeat: no-repeat;
     position: relative;
     height: 50rem;
     display: grid;
