@@ -43,13 +43,17 @@ nav, p, section, article {
 }
 
 .hero {
-    background-image: url(images/rafting58.jpg);
+    background-image: url(../images/rafting58.jpg);
     background-size: cover;
     background-repeat: none;
     position: relative;
     height: 50rem;
     display: grid;
     grid-template-rows: repeat(10,10%);
+}
+
+.hero h1{
+    position: absolute;
 }
 
 .hero img {
@@ -59,12 +63,18 @@ nav, p, section, article {
 }
 
 .hero article {
-    position: relative;
+    position: absolute;
     grid-row: 8/10;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     background-color: var(--accent1-color);
+    color: white;
+    text-align: center;
+}
+
+.hero article img{
+    float: right;
 }
 
 .hero h1 {
