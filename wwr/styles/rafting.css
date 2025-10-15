@@ -243,14 +243,14 @@ textarea {
     font-size: 15px; /* Slightly larger radio label text */
 }
 
-.checkbox {
+#checkbox {
     margin: 12px 0;
     display: flex;
     align-items: center;
     font-size: 15px; /* Slightly larger checkbox label */
 }
 
-.checkbox input {
+#checkbox input {
     margin-right: 10px;
     width: 18px;
     height: 18px; /* Slightly larger checkbox */
